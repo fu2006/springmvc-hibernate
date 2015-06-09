@@ -1,0 +1,7 @@
+数据库配置路径：src/hibernate.properties
+数据库生成文件：table.sql
+邮箱配置、附件地址配置、APP对接地址配置文件：src/email.properties
+配置轮询时间类：src/com/mvc/service/EmailTaskManager.java	-->49行 现在配置为5分钟
+查看单个邮件信息请求地址：http://localhost:8080/EcoEmail/message/3534		3534为邮件ID		(在推送时的URL属性已经配置好URL，需要将邮箱配置文件的show.url改成项目部署地址即可)
+邮箱展示页面：WebContent/WEB-INF/view/
+用户的添加：http://localhost:8080/EcoEmail/user
