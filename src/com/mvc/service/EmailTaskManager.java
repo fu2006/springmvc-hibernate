@@ -48,7 +48,7 @@ public class EmailTaskManager {
 		}
 	}
 	
-	//@Scheduled(fixedDelay = 30000)
+	@Scheduled(fixedDelay = 30000)
 	public void doSomething() {
 		List<Object> userInfos = getUserInfoList();
 		for (Object obj : userInfos) {
